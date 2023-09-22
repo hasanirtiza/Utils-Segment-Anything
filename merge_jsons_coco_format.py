@@ -54,8 +54,8 @@ coco_annotation = {
 # Define the category
 category = {
     "id": 1,
-    "name": "tower",
-    "supercategory": "tower"
+    "name": "object",
+    "supercategory": "object"
 }
 coco_annotation["categories"].append(category)
 total_files = len(os.listdir(json_directory))
